@@ -20,11 +20,11 @@ class Car {
         this.speed--;
     }
 
-    getSpeed():void {
+    getSpeed():void { // This is a getter for my private attribute "speed"
         console.log(this.speed);
     }
 
-    static numberOfWheels(): number {
+    static numberOfWheels(): number { // This method is marked as static, which means I don't need an instance of Car object to access it, e.g. L38
         return 4;
     }
 }
