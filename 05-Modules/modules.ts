@@ -6,3 +6,6 @@
 export class ExportedClass {
     // This class is exported
 }
+
+/* Instructor: It's important to understand that we're exporting everything basically because we're not separating parts of our app in files which live on their own. 
+But all these files need to be able to work together. And therefore we're using export keyword and this module driven approach to share the code basically */
