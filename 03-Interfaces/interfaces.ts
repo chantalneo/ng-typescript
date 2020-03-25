@@ -4,7 +4,7 @@
 
 // Example interface
 
-interface User {
+interface User { // An interface is like a contract. Can be used to create our own type without creating a class for it.
     username: string;
     password: string;
     confirmPassword?: string; // Optional property => Does not have to be implemented
